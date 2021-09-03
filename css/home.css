@@ -8,36 +8,16 @@ html {
   scroll-behavior: smooth;
 }
 
-.home , #home{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/g.jpg);
+.home-header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/g.jpg);
 	background-repeat: no-repeat;
 	background-position: relative;
 	background-size: cover;
 	background-attachment: scroll;
 	padding-left: 30px;
 	padding-right: 45px;
-	padding-top: 50px;
-	padding-bottom: 30px;
-}
-
-.project1, #project1 {
-	background-color: #010206;
-	background-position: relative;
-	background-size: cover;
-	background-attachment: fixed;
-	padding-left: 30px;
-	padding-top: 30px;
-
-}
-
-.project2, #project2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/f.jpg);
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	padding-left: 30px;
-	padding-top: 30px;
-	margin: 0
+	padding-top: 100px;
+	padding-bottom: 130px;
 }
 
 h1, h2, h3 {

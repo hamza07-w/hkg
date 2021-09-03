@@ -1,0 +1,36 @@
+
+
+.projects-header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/f.jpg);
+	background-repeat: no-repeat;
+	background-position: relative;
+	background-size: cover;
+	background-attachment: scroll;
+	padding-left: 30px;
+	padding-right: 45px;
+	padding-top: 100px;
+	padding-bottom: 130px;
+}
+
+.project1 {
+	background-color: #010206;
+	background-position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-left: 30px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin: 0;
+
+}
+
+.project2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/e.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-left: 30px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin: 0;
+}

@@ -8,31 +8,35 @@ ul {
   list-style-type: none;
   background-color: #010206;
   margin: 0;
-  padding-top: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   padding-left: 0;
   overflow: hidden;
   position: fixed;
   width: 100%;
-  
+
 }
 
 li {
   float: left;
   font-family: Ubuntu, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   text-transform: capitalize;
+  padding-left: 5px;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-decoration: none;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #010206;
 }
 
 li a:hover {
-  background-color: rgb(120, 255, 140);
-  color: black;
+  background-color: #010206;
+  color: white;
+  border-bottom: 5px solid rgb(120, 255, 140);
 }
