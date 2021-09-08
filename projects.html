@@ -14,14 +14,10 @@
 <body>
 	<div class="menu">
 		<ul>
-			<li><a href="index.php">home</a></li>
+			<li><a href="index.html">home</a></li>
 			<li><a href="#" style="border-bottom: 5px solid rgb(120, 255, 140);color: rgb(120, 255, 140);">projects</a></li>
-			<li><a href="cybersec.php">cyber security</a></li>
-			<li id="right-nav">
-				<form action="search.php">
-					<input type="text" name="search" placeholder="search..." required>
-				</form>
-			</li>
+			<li><a href="cybersec.html">cyber security</a></li>
+			<li id="right-nav"><a href="#contact">contact</a></li>
 		</ul>
 	</div>
 	<div class="projects-header">
@@ -32,7 +28,7 @@
 		<a href="https://hkgang.com" target="_blank" id="articls">our articls website</a><br></p>
 	</div>
 
-	<div class="project1" id="cms-ripper">
+	<div class="project1" id="project1">
 		<h1>CMS-RIPPER</h1>
 		<span class="author">Authors : Hamza Elansari - Salah Eddin</span>
 		<h4>simple informations gathering tool, for education and security purpose.</h4>
@@ -52,7 +48,7 @@
 		</div>
 	</div>
 
-	<div class="project2" id="ransomware">
+	<div class="project2" id="project2">
 		<h1>HKG RANSOMWARE</h1>
 		<span class="author">Authors : Hamza Elansari - Abdelkarim mchklt</span>
 		<h4>simple ransomware, for education and security purpose.</h4>
@@ -73,7 +69,7 @@
 				zf.writestr(directorys[j], rd)<br>
 		</div>
 	</div>
-	<div class="project1" id="cryptoghost">
+	<div class="project1">
 		<h1>CRYPTOGHOST</h1>
 		<span class="author">Authors : Abdelkarim mchklt</span>
 		<h4>cryptoghost is a script for decrypt or decode your data</h4>
@@ -94,7 +90,18 @@
 		</div>
 	</div>
 	<footer>
-		<?php include 'footer.php' ?>
+		<div class="contact" id="contact">
+			<h2 id="center-text">contact us</h2>
+			<p id="center-text">This Website Has Been Created And Designed By <span id="special"> Hamza Elansari</span> Also Known As <span id="special">Hamza07-w</span> Open Sourced At<a href="https://github.com/hamza07-w" id="links" target="_blank"> github</a>, and Published On 2021</p>
+			<p id="center-text">
+				<a href="https://www.facebook.com/HK.GANG.18" target="_blank" id="links">facebook</a><br>
+				<a href="https://twitter.com/HK4GANG" target="_blank" id="links">twitter</a><br>
+				<a href="https://www.instagram.com/hk_gang.co" target="_blank" id="links">instagram</a><br>
+				<a href="https://github.com/HK-GANG" target="_blank" id="links">github</a><br>
+				<a href="https://hkgang.com" target="_blank" id="links">articls</a><br>
+			</p>
+			<a href="#"><span class="back-to-top">back to top</span></a>
+		</div>
 	</footer>
 </body>
 </html>
