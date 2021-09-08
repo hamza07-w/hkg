@@ -14,7 +14,8 @@
 }
 
 .back-to-top {
-	position: bottom left;
+	bottom: 8px;
+	left: 16px;
 	background-position: fixed;
 	color: rgb(120, 255, 140);
 	font-size: 20px;
@@ -27,6 +28,17 @@
 .back-to-top:hover {
 	background-color: rgb(120, 255, 140);
 	color: black;
+}
+
+.contact ul {
+	list-style-type: none;
+	width: 50%;
+    margin: auto;
+}
+
+.contact li {
+	float: left;
+	padding: 10px;
 }
 
 a {

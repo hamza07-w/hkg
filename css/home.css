@@ -18,9 +18,10 @@ html {
 	padding-right: 45px;
 	padding-top: 100px;
 	padding-bottom: 130px;
+	overflow: hidden;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: Ubuntu, sans-serif;
 	text-transform: capitalize;
 }
@@ -41,7 +42,6 @@ h2:hover {
 
 h4 {
 	color: gray;
-	text-transform: capitalize;
 }
 
 p {
@@ -73,7 +73,6 @@ p {
 #pic {
     width: 550px;
     height: 350px;
-	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 2px;
 	margin: 0;
@@ -102,23 +101,19 @@ img:hover {
 
 .source-code {
 	background-color: black;
-	height: 190px;
-	max-width: 600px;
+	height: 100%;
+	max-width: 550px;
 	overflow: auto;
 	color: #EEE;
 	line-height: 1.7;
 	font-family: Courier, sans-serif;
 	color: white;
 	font-size: 15px;
-	border-right: solid rgb(120, 255, 140) 2px;
-	border-bottom: solid rgb(120, 255, 140) 2px;
+	border: solid black 1px;
 	border-radius: 12px;
 	margin: 15px;
-}
+	padding: 5px;
 
-.source-code:hover {
-	background-color: white;
-	color: black;
 }
 
 @media screen and (max-width: 800px) {

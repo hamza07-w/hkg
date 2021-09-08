@@ -1,30 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HKG - CYBER SECURITY</title>
+	<title>HKG - Contact Us</title>
+	<meta name = "author" content = "Hamza Elansari" />
+	<meta name = "description" content ="">
+	<link rel = "icon" href = "img/hkgicon.png" type = "image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="css/nav-bar.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<link rel="stylesheet" type="text/css" href="css/projects.css">
 	<link rel="stylesheet" type="text/css" href="css/cybersec.css">
+	<link rel="stylesheet" type="text/css" href="css/articls.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
-	<div class="menu">
-		<ul>
-			<li><a href="index.html">home</a></li>
-			<li><a href="projects.html">projects</a></li>
-			<li><a href="#" style="border-bottom: 5px solid rgb(120, 255, 140)">cyber security</a></li>
-			<li style="float:right"><a href="#contact">contact</a></li>
-		</ul>
-	</div>
-	<div class="cybersec-header">
-		<h1>HKG - cyber security</h1><br>
-		<h4>we are HKG members we talk to machines.</h4>
-		<h2>HKG cyber security</h2>
-		<p id="center-text">HKG is a short name means HACKING GANG, its a moroccan organization contain genius and talented members, working on many it fields, cyber security, penatration testing, bug bounty hunting, front end, back end, problem solving, web applications, desktop applications and more fields by publishing articls and sharing there knowledge.<br>
-		<a href="https://hkgang.com" target="_blank" id="articls">our articls website</a><br>
-	</div>
-
+	
 	<footer>
 		<div class="contact" id="contact">
 			<h2 id="center-text">contact us</h2>

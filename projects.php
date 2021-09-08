@@ -2,19 +2,26 @@
 <html>
 <head>
 	<title>HKG - PROJECTS</title>
+	<meta name = "author" content = "Hamza Elansari" />
+	<link rel = "icon" href = "img/hkgicon.png" type = "image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="css/nav-bar.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<link rel="stylesheet" type="text/css" href="css/projects.css">
 	<link rel="stylesheet" type="text/css" href="css/cybersec.css">
+	<link rel="stylesheet" type="text/css" href="css/articls.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
 	<div class="menu">
 		<ul>
-			<li><a href="index.html">home</a></li>
-			<li><a href="#" style="border-bottom: 5px solid rgb(120, 255, 140)">projects</a></li>
-			<li><a href="cybersec.html">cyber security</a></li>
-			<li style="float:right"><a href="#contact">contact</a></li>
+			<li><a href="index.php">home</a></li>
+			<li><a href="#" style="border-bottom: 5px solid rgb(120, 255, 140);color: rgb(120, 255, 140);">projects</a></li>
+			<li><a href="cybersec.php">cyber security</a></li>
+			<li id="right-nav">
+				<form action="search.php">
+					<input type="text" name="search" placeholder="search..." required>
+				</form>
+			</li>
 		</ul>
 	</div>
 	<div class="projects-header">
@@ -25,8 +32,9 @@
 		<a href="https://hkgang.com" target="_blank" id="articls">our articls website</a><br></p>
 	</div>
 
-	<div class="project1" id="project1">
+	<div class="project1" id="cms-ripper">
 		<h1>CMS-RIPPER</h1>
+		<span class="author">Authors : Hamza Elansari - Salah Eddin</span>
 		<h4>simple informations gathering tool, for education and security purpose.</h4>
 		<h2>what is CMS ?</h2>
 		<p>A CMS is an application that is used to manage and publish web content, allowing multiple users to contribute, create, edit, publish without having to beg a developer. It also provides version management and authoring workflow to keep large, global sites consistent.</p>
@@ -44,12 +52,13 @@
 		</div>
 	</div>
 
-	<div class="project2" id="project2">
+	<div class="project2" id="ransomware">
 		<h1>HKG RANSOMWARE</h1>
+		<span class="author">Authors : Hamza Elansari - Abdelkarim mchklt</span>
 		<h4>simple ransomware, for education and security purpose.</h4>
 		<h2>about HK-GANG V 0.1</h2>
-		<p>HK-GANG V 0.1 is simple ransomware build using python3, is based on zip compressing idea by a library called pyzipper, basicly is take the files targeted and compress them in .zip file closed by an encrypted password.<br>
 		<a href="img/index.jpg"><img style="float: right; margin-right: 15px;" id="pic" src="img/index.jpg"></a>
+		<p>HK-GANG V 0.1 is simple ransomware build using python3, is based on zip compressing idea by a library called pyzipper, basicly is take the files targeted and compress them in .zip file closed by an encrypted password.<br>
 		the goal behind this simple project its not to encrypt nasa data, its just to know about this new idea that we can encypt data using zip files even there are crackbable and week. <a href="https://github.com/hamza07/HK-GANG" target="_blank" id="links">Hkg-ransomware on github</a></p>
 		<h2>main source code</h2>
 		<div class="source-code">
@@ -64,19 +73,28 @@
 				zf.writestr(directorys[j], rd)<br>
 		</div>
 	</div>
-	<footer>
-		<div class="contact" id="contact">
-			<h2 id="center-text">contact us</h2>
-			<p id="center-text">This Website Has Been Created And Designed By <span id="special"> Hamza Elansari</span> Also Known As <span id="special">Hamza07-w</span> Open Sourced At<a href="https://github.com/hamza07-w" id="links" target="_blank"> github</a>, and Published On 2021</p>
-			<p id="center-text">
-				<a href="https://www.facebook.com/HK.GANG.18" target="_blank" id="links">facebook</a><br>
-				<a href="https://twitter.com/HK4GANG" target="_blank" id="links">twitter</a><br>
-				<a href="https://www.instagram.com/hk_gang.co" target="_blank" id="links">instagram</a><br>
-				<a href="https://github.com/HK-GANG" target="_blank" id="links">github</a><br>
-				<a href="https://hkgang.com" target="_blank" id="links">articls</a><br>
-			</p>
-			<a href="#"><span class="back-to-top">back to top</span></a>
+	<div class="project1" id="cryptoghost">
+		<h1>CRYPTOGHOST</h1>
+		<span class="author">Authors : Abdelkarim mchklt</span>
+		<h4>cryptoghost is a script for decrypt or decode your data</h4>
+		<h2>about cryptoghost</h2>
+		<p>Cryptoghost is a python script created by three important librarys (requests, hashlib, beautifulsoup from bs4) cryptoghost supports decryption / encryption / encoding / decoding . The decryption is important in cryptoghost i make tow methods for decryption : Methode 1 , bruteforce i give 100k words and passwords list for script and he try line by line he take a word word, he encrypted the word after he comparing if the ecnrypted word == the user hash . input Methode 2, he tak a userhash input and decrypted in site named hashtoolkit.</p>
+		<h2>download and use</h2>
+		<p>for download the script open the terminal and type the following</p>
+		<div class="source-code">
+			git clone https://github.com/mchklt/cryptoghost.git
 		</div>
+		<p>how to use cryptoghost<br>for encoding</p>
+		<div class="source-code">
+			python3 cryptoghost.py -e [TEXT]
+		</div>
+		<p>for decoding</p>
+		<div class="source-code">
+			python3 cryptoghost.pt -d [HASH]
+		</div>
+	</div>
+	<footer>
+		<?php include 'footer.php' ?>
 	</footer>
 </body>
 </html>

@@ -4,28 +4,27 @@
   padding: 0;
 }
 
-ul {
+.menu ul {
   list-style-type: none;
   background-color: #010206;
   margin: 0;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 0;
-  overflow: hidden;
+  overflow: auto;
   position: fixed;
   width: 100%;
-
 }
 
-li {
+.menu li {
   float: left;
   font-family: Ubuntu, sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   text-transform: capitalize;
   padding-left: 5px;
 }
 
-li a {
+.menu li a {
   display: block;
   color: white;
   text-align: center;
@@ -35,8 +34,39 @@ li a {
   border-bottom: 5px solid #010206;
 }
 
-li a:hover {
+#right-nav {
+  float:right;
+}
+
+.menu li a:hover {
   background-color: #010206;
   color: white;
   border-bottom: 5px solid rgb(120, 255, 140);
+}
+
+.menu ul li form input[type=text] {
+  padding: 5px;
+  font-family: Ariale, sans-serif;
+  background-color: #010206;
+  color: rgb(120, 255, 140);
+  border: solid black 3px;
+  font-size: 17px;
+  outline: none;
+}
+
+.menu ul li form input[type=text]:hover{
+  border-bottom: solid rgb(120, 255, 140) 3px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .menu li, #right-nav {
+    float: none;
+  }
+  .menu ul {
+    background-color: none;
+    position: relative;
+  }
+
 }

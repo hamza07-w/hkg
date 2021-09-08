@@ -1,0 +1,69 @@
+
+.atricls-header {
+	background-color: #010206;
+	padding-top: 40px;
+	margin: 0;
+}
+
+.row {
+	margin: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.articl-card {
+	background-color: black;
+	width: 270px;
+	height: 260px;
+	padding: 5px;
+	margin: 15px 15px;
+	float: left;
+	border: solid 2px rgb(120, 255, 140);
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.articl-card:hover {
+	border: solid 2px white;
+	outline: solid 1px white;
+}
+
+.articl-card p {
+	color: white;
+	margin: 4px;
+}
+
+.atricls-header .row .articl-card h2 {
+	background-color: black;
+	color: rgb(120, 255, 140);
+	text-align: center;
+}
+
+.author {
+	font-size: 14px;
+	color: white;
+	font-family: cursive;
+}
+.readmore {
+	text-align: left;
+	text-decoration: none;
+	color: gray;
+	font-size: 19px;
+}
+
+.readmore:hover {
+	color: rgb(120, 255, 140);
+	font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .articl-card {
+  	width: 100%;
+  }
+}
